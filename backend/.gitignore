@@ -1,0 +1,36 @@
+# Django Backend
+*.pyc
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Environment
+.env
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Media uploads (local dev)
+media/recordings/
+media/covers/
+media/instrumentals/
+media/vocals/
+media/lyrics/
+
+# Static files
+staticfiles/

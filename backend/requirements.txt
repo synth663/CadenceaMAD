@@ -1,0 +1,26 @@
+# Django Core
+Django==5.0.6
+djangorestframework==3.15.1
+djangorestframework-simplejwt==5.3.1
+django-cors-headers==4.3.1
+
+# ML / Audio Analysis
+librosa==0.10.1
+numpy==1.26.4
+scipy==1.13.1
+soundfile==0.12.1
+
+# Cloud Storage (Cloudflare R2 via S3 API)
+boto3==1.34.116
+
+# HTTP / External APIs
+requests==2.32.3
+
+# Environment Configuration
+python-dotenv==1.0.1
+
+# Production Server
+gunicorn==22.0.0
+
+# Database (PostgreSQL for production)
+psycopg2-binary==2.9.9
